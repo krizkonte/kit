@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button} from "./button.tsx";
+import { Button } from "../components/ui/button.tsx";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta: Meta<typeof Button> = {
@@ -35,7 +35,7 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     variant: "default",
-    size: "lg",
+    size: "sm",
     disabled: false,
     children: "Default",
   },

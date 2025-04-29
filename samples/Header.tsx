@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button, buttonVariants } from "../components/ui/button.tsx";
+import { Button, buttonVariants } from "../src/components/ui/button.tsx";
 import './header.css';
 
 type User = {
